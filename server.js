@@ -38,11 +38,11 @@ mongoose.connect(
   }
 );
 
-/**  *****This will show use on the localhost:5000
+// *****This will show use on the localhost:5000
 app.get('/',(req,res)=>{
     res.send("hello from server");
 });
-*/
+
 
 //create routes
 app.use("/contact", require("./routes/contactRoute"));
